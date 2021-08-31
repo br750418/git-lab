@@ -53,6 +53,15 @@ to read about a specific subcommand or concept.
 
 
 	"Answer 4"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	DEADJOE
+
+nothing added to commit but untracked files present (use "git add" to track)
 
 
 
@@ -100,4 +109,39 @@ nothing to commit, working tree clean
 
 
 	"Answer 10"
+No
+
+
+	"Answer 11"
+
+To https://github.com/br750418/git-lab.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/br750418/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+	"Answer 12"
+The changes did go through so yes
+
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/br750418/git-lab
+   e493d9f..f61e2ed  main       -> origin/main
+Updating e493d9f..f61e2ed
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+	"Answer 13"
+https://github.com/br750418/git-lab-2.git
+
+
+
 
